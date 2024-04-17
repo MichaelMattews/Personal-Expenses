@@ -1,0 +1,10 @@
+﻿transaction_type_id,transaction_description
+1,girocard_purchase
+2,deposit
+3,paypal deposit
+4,paypal savings
+5,transfer sent
+6,transfer received
+7,withdraw
+8,service charges
+9,direct debit
