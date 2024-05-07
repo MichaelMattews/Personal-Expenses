@@ -44,7 +44,6 @@ transaction_date DATE PRIMARY KEY NOT NULL,
 --------------------------------------
 
 CREATE TABLE IF NOT EXISTS transaction_facts (
-  transaction_id SERIAL PRIMARY KEY,
   transaction_type_id INT NOT NULL,
   category_id INT NULL,
   transaction_date DATE NOT NULL,
@@ -67,3 +66,8 @@ CREATE TABLE IF NOT EXISTS transaction_facts (
     ON DELETE NO ACTION
     ON UPDATE NO ACTION
 );
+
+
+-- Add a new column with auto-incrementing behavior
+ALTER TABLE transaction_facts
+ADD COLUMN id SERIAL PRIMARY KEY;
