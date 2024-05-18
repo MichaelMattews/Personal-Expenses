@@ -1,7 +1,7 @@
 ﻿category_id,category_description,category_essential
-1,housing,1
+1,bills,1
 2,transportation,1
-3,educational courses,1
+3,educational,1
 4,entertainment,0
 5,food & drink,0
 6,gift & charity,0
@@ -11,3 +11,5 @@
 10,professional services,1
 11,vacation,0
 12,investment,0
+13,home,0
+14,personal,0
